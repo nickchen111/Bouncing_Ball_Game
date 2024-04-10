@@ -6,6 +6,7 @@
   * 遊戲畫面:
     
     <img height="400" width="300" src="https://github.com/nickchen111/Bouncing_Ball_Game/blob/main/img/%E5%BD%88%E8%B7%B3%E7%90%83.png">
+    
     可以從github page實際操作
   * 技術細節:
     * 在判斷是否所有磚塊被消除的程式碼中,不去真的將陣列中的磚塊物件刪除 而是用一個變數count計算被撞擊的磚塊再利用visible屬性去讓磚塊消失 以此來優化時間複雜度
